@@ -1,9 +1,9 @@
 function atob(o) {
     if ((o = o.replace(/[ \t\n\f\r]/g, "")).length % 4 == 0 && (o = o.replace(/==?$/, "")), o.length % 4 == 1 || /[^+/0-9A-Za-z]/.test(o)) return null;
-    let r = "",
+    var r = "",
         e = 0,
         n = 0;
-    for (let t = 0; t < o.length; t++) e <<= 6, e |= atobLookup(o[t]), n += 6, 24 === n && (r += String.fromCharCode((16711680 & e) >> 16), r += String.fromCharCode((65280 & e) >> 8), r += String.fromCharCode(255 & e), e = n = 0);
+    for (var t = 0; t < o.length; t++) e <<= 6, e |= atobLookup(o[t]), n += 6, 24 === n && (r += String.fromCharCode((16711680 & e) >> 16), r += String.fromCharCode((65280 & e) >> 8), r += String.fromCharCode(255 & e), e = n = 0);
     return 12 === n ? (e >>= 4, r += String.fromCharCode(e)) : 18 === n && (e >>= 2, r += String.fromCharCode((65280 & e) >> 8), r += String.fromCharCode(255 & e)), r
 }
 const keystr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
@@ -33,20 +33,8 @@ var v = {
     "bk3": "Hbt\/WFjB\/7GW",
     "bk4": "xNv\/T08\/z7F3",
 }
-// function b1(str) {
-//     return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g,
-//         function toSolidBytes(match, p1) {
-//             return String.fromCharCode("0x" + p1);
-//     }));
-// }
-// function b2(str) {
-//     return decodeURIComponent(atob(str).split("").map(function(c) {
-//         return "%" + ("00" + c.charCodeAt(0).toString(16)).slice(-2);
-//     }).join(""));
-// }
 function acb() {
-//    var x = "#2aHR0cHM6Ly9oYWNrZXIuajdwb3BhLmVhc3lwYW5lbC5ob3N0L3Byb3h\/\/MGNhL0JWb0kvTlM55L20zdTgvaHR0cHMlM0E\/\/SGJ0L1dGakIvN0dXlMkYlMkZyb3Zkei52aWQ5NDVjNDguc2l0ZSUyRl92MnAteGJyciUyRjEyYTNjNTIzZmQxMDU4MDBlZDhjMzk0Njg1YWVlYjBiYzIyZWFhNWMxYmJiZmVmNTBiMTg3YmFlYTkzZWNlODMyMjU3ZGYxYTRiNjEyNWZjZmEzOGMzNWRhMDVkZWU4NmFhZDI4ZDQ2ZDczZmM0ZTlkNGU1YTEzODU1NzdmMzkyNjM5NzRhYTc\/\/U0ZML2RVN0IvRGx41YzRhZWE0ZDQxOTRhZmVlM2UxNTdiNTEzMTM1OGE2YTQzNDM\/\/eE52L1QwOC96N0Yz3MDg5ODljMmU5MD\/\/Ym94LzJTSS9aU0ZjRjZWE1Nzk5YzcwMGZlNDEwMTY2MCUyRmglMkZsaXN0JTNCMTVhMzg3M2NmYTEwNTg1ZGFhODQ2NTE1ZDFiMGVhMDY5MTM4YWY0NTVjYjhhOGVlNDkwMTY1YTBhNy5tM3U4JTIzLm1wNA=="
-  var x = '####'
+ var x = '####'
  a = x.substr(2);
     for (var i = 4; i > -1; i--) {
        // if (exist(v["bk" + i])) 
@@ -63,5 +51,4 @@ function acb() {
     // }
     return a;
 }
-// console.log(acb())
 acb()
