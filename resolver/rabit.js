@@ -4,7 +4,7 @@
     "url": "https://raw.githubusercontent.com/eatmynerds/key/e4/key.txt",
     "embed":"ajax/v2/embed-4",
     "mainurl": "https://rabbitstream.net",
-    "exkey" : "&v=30061&h=cee6762ddfab4706a1045c519fdbc047ed85a4fe&b=1878522368",
+    "exkey" : "&v=28509&h=961813e89f77c55a03e254fec9cbc1d63ef40c79&b=1878522368",
     "referer": "https://flixhq.to",
     "encrypted": true
   },
