@@ -1,0 +1,1 @@
+%s/dataa.php?tmdb=%s
