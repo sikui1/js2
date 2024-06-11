@@ -13,7 +13,7 @@
     "url": "",
     "embed":"rabbit?id=",
     "exkey" : "",
-    "referer": "",
+    "referer": "https://fmovies.ps/",
     "mainurl": "https://aquariumtv.app",
     "encrypted": false
   }
