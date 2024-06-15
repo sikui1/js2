@@ -16,5 +16,14 @@
     "referer": "https://fmovies.ps/",
     "mainurl": "https://aquariumtv.app",
     "encrypted": false
+  },
+  {
+    "ver": "5",
+    "url": "",
+    "embed":"ajax/v2/embed-4/getSources?id=",
+    "exkey" : "",
+    "referer": "",
+    "mainurl": "https://rabbitstream.net",
+    "encrypted": true
   }
 ]
