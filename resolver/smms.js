@@ -1,1 +1,1 @@
-%s/dataa.php?tmdb=%s
+%s/dataaa.php?tmdb=%s
