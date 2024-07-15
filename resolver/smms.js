@@ -1,1 +1,1 @@
-%s/dataaw.php?tmdb=%s
+%s/dataad.php?tmdb=%s
